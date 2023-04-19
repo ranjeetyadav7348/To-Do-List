@@ -1,0 +1,45 @@
+.main{
+  display: flex;
+  flex-direction: row;
+ width: 100%;
+ margin-left: -9%;
+
+}
+.notes {
+ margin-left: 0%;
+width: 100vh;
+
+
+}
+.delete{
+
+  margin-bottom: 0.1em;
+
+  cursor: pointer;
+  justify-content: end;
+  
+}
+
+.delete :hover{
+  border-radius: 20%;
+color: rgb(3, 38, 3);
+background-color: white;
+
+
+
+}
+#virat{
+  font-weight: bold;
+  background-color: #15895b;
+  border: #15895b;
+  background-color: #15895b;
+  
+  
+}
+#virat:hover{
+  border: 1px solid rgb(20, 111, 20);
+  background-color: #15895b;
+  box-shadow: 0px 5px 10px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
